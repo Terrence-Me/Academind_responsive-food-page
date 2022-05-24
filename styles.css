@@ -30,6 +30,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  display: none;
 }
 
 .menu-btn span {
@@ -131,6 +132,10 @@ main h1 {
   overflow: hidden;
 }
 
+.food-items h2 {
+  margin: 0 0 1rem 0;
+}
+
 .food-item-content {
   padding: 1rem;
   text-align: center;
@@ -158,5 +163,8 @@ main h1 {
 
   #latest-products ul {
     grid-template-columns: 1fr;
+  }
+  .menu-btn {
+    display: flex;
   }
 }
